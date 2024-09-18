@@ -15,7 +15,7 @@ body{
 
 /* login section */
 .login-box{
-    background: #fff;
+    background:black;
     padding: 30px 120px;
     width: 550px;
     position: absolute;
@@ -33,6 +33,8 @@ body{
 
 .login-box h2{
     margin-bottom: 20px;
+    color:white;
+    text-align: left;
 }
 
 .login-box button img{
@@ -48,8 +50,8 @@ margin-right: 10px;
     justify-content: center;
     margin: 20px 0;
     border-radius: 30px;
-    background: transparent;
-    border: 1px solid #999;
+    background:white;
+    border: 1px solid white;
     font-weight: 500;
     cursor: pointer;
 }
@@ -57,7 +59,7 @@ margin-right: 10px;
 .login-box hr{
     border: 0;
     height: 1px;
-    background: #c2c2c2;
+    background: #2a2929;
     margin: 5px;
 }
 
@@ -65,30 +67,32 @@ margin-right: 10px;
     display: block;
     width: 40px;
     margin: auto;
-    background: #fff;
+   background: black;
     font-size: 14px;
     margin-top: -16px;
+    color: white;
 }
 
 
 .login-box input{
     width: 100%;
-    background: transparent;
-    border: 1px solid #999;
-    outline: 0;
+    background:rgb(42, 39, 39);
+    border:1px solid rgb(42, 39, 39);
+    
     padding: 15px 10px;
     border-radius: 4px;
     margin: 10px;
+    color: white;
+    
 }
-
-
+/* form section */
 ::placeholder{
     font-weight: 500;
-    color: #333;
+    color: #938f8f;
 }
 
 .login-box form button{
-    background: #000;
+    background:white;
     color: white;
     border:0;
 }
@@ -96,30 +100,77 @@ margin-right: 10px;
 .login-box p{
     text-align: left;
     font-size: small;
-    color: #555;
+    color: #939090;
     margin: 40px 0 50px;
 }
 
 .login-box p a{
     text-decoration: none;
     color: #359cf0;
+    
 }
 
-
-.login-enter{
+.login-box form p{
+    color: #359cf0;
+    margin: 0;
     text-align: left;
+    
+}
+.login-box form :hover{
+    border-color: #359cf0;
 }
 
+::placeholder :hover{
+    color: #359cf0;
+}
+/* button section */
 .btn{
+    width: 100%;
+    padding: 10px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 10px;
+    border-radius: 30px;
+    background: white;
+    border: 1px solid white;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    margin-top: 250px;
+    
+}
+
+.btn-for{
     width: 100%;
     padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0px;
+    margin: 20px 0;
     border-radius: 30px;
-    background: transparent;
-    border: 1px solid #999;
+    background:transparent;
+    border: 1px solid rgb(56, 55, 55);
     font-weight: 500;
-    
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
+
+.btn-btn{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background:white;
+    border: 1px solid white;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+
