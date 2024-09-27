@@ -157,7 +157,7 @@ margin-right: 10px;
     text-decoration: none;
 }
 
-.btn-btn{
+#redirectButton{
     width: 100%;
     padding: 10px 0;
     display: flex;
