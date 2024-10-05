@@ -1,0 +1,353 @@
+/*Right nav bar styles */
+body{
+    background: black;
+}
+
+.layout{
+    margin: 0 73%;
+    max-width: 360px;
+
+   
+    
+}
+.layout_right-sidebar{
+    position: static;
+    width: 360px;
+    box-shadow: rgb(50, 49, 49);
+}
+
+:root{
+    --ligt-bg:white;
+    --light-primary: rgb(247,249, 250);
+    --ligt-secondary: rgb(240,242 243);
+    --light-divider: rgb(235,237, 238);
+
+
+    --dark-bg:black;
+    --dark-primary:#15181c;
+    --dark-secondary:#2f3336;
+    --dark-divider:#2f3336;
+
+    --hightlight-color:blue;
+
+}
+.light-theme {
+    --background-color:var(--light-bg);
+    --primary-bg: var(--light-primary);
+    --secondary-bg:var(--light-secondary);
+    --divider:var(--light-divider);
+}
+
+.dark-theme {
+    --background-color:var(--dark-bg);
+    --primary-bg: var(--dark-primary);
+    --secondary-bg:var(--dark-secondary);
+    --divider:var(--light-divider);
+    color:white !important;
+}
+.trends-for-you{
+    border-radius: 29px;
+    background: #0e0e0f;
+    color: white;
+    color-scheme: black;
+    box-shadow:1px 1px black ;
+   
+    
+}
+.trends-for-you_block{
+    border-bottom: 2px solid #0e0e0f;
+    padding: 10px 15px;
+}
+.trends-for-you_heading{
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    
+}
+.trends-for-you_meta-information{
+    font-size: x-small;
+    font-weight: 300;
+    color: #657786;
+}
+.trends-for-you_trends-name{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:whitesmoke;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.subsribe_premium_heading{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color :white;
+}
+.subscribe-button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    text-align: left;
+  text-decoration: none;
+  border-radius: 100%;
+}
+.button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+    border: 0cap;
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 9px;
+    padding-top:9px;
+    margin-bottom: 1%;
+    color: white;
+    background-color: steelblue;
+    box-shadow: none;
+    cursor: pointer;
+}
+.subscribe_premium_block{
+    background: #0e0e0f;
+    border: rgb(79, 78, 78);
+    border-radius: 24px;
+    margin-bottom:1px;
+    padding-left: 18px;
+    font-weight: 3rem;
+    color: white;
+    box-shadow:1px 1px black ;
+}
+
+/*hr*/
+hr{
+    color: aqua;
+}
+/* end hr*/
+
+.search-bar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 4rem;
+    background-color:rgb(39, 37, 37) ;
+    color: white;
+
+}
+.search-bar input{
+    flex: 1rem;
+  background-color: var(--background-grey);
+  border: none;
+  color: var(--light-grey);
+  font-family: "Chirp", sans-serif;
+  font-size: 1rem;
+  cursor:pointer;
+}
+.search-icon,
+.setting-icon{
+    height: 1.2rem;
+    width: 1.2rem;
+    cursor: pointer;
+}
+.search-bar input:focus{
+    outline:none;
+}
+/* messaging div starts*/
+.messaging-div{
+    align-items: center;
+    align-content: space-between;
+    position: fixed;
+    bottom: 0%;
+    width:21rem ;
+    background: #0e0e0f;
+    box-shadow:1px 1px rgb(43, 42, 42) ;
+    border-radius: 15px;
+    border-bottom: 0;
+    border-top-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    
+    
+    
+}
+.messaging-heading{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-between;
+    size:30px;
+
+    
+    color:white;
+    padding-left: 15px;
+    padding-top:5px;
+    font-weight: 1.3rem;
+    font-size:11pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.material-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-between;
+
+}
+.messaging-div{
+    color: white;
+    color: white;
+}
+/* messaging div ends*/
+
+/* who to follow starts*/
+
+.who_to_follow_heading{
+    font-size: 9pt;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: 0;
+    padding-left: 15px;
+    padding-top:15px;
+    color:white;
+}
+.who-to-follow{
+    height: auto;
+    margin: 0 auto;
+    border-radius: 24px;
+    background: #0e0e0f;
+    box-shadow:1px 1px black ;
+
+}
+
+.profile-information{
+    flex-grow: 1;
+    margin: 22px 22px 16;
+    padding: 0 10px;
+    color:white ;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+.divider{
+    display: block;
+    width: 100%;
+    border-top:1px solid var(--secondary-bg);
+    border-color: none;
+}
+.profile{
+    display: flex;
+    flex-wrap:nowrap;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 10px 0%;
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-between;
+    justify-items: stretch;
+
+
+}
+.profie:hover,
+.show-more:hover{
+    background-color: var(--secondary-bg)
+}
+
+.username{
+    font-size: x-small;
+    color: #657786;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 2px;
+
+}
+.profile-pic {
+    display:block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-position: top;
+    background-size:cover;
+
+}
+
+.img-one{
+    background-image: url(data:image/png;base64,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);
+}
+
+.img-two{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxpTUa9fwIslsJV9h_u55F2HM6MgCcd7Lg0A&s);
+}
+
+.img-three{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxpTUa9fwIslsJV9h_u55F2HM6MgCcd7Lg0A&s);
+}
+
+.display-name,
+.username{
+    display: block;
+}
+.display-name{
+    font-weight: 700;
+}
+.follow-btn{
+    background-color:inherit;
+    border:0 solid var(--hightlight-color);
+    border-radius: 16px;
+    color: var(--hightlight-color);
+    padding: 6px 16px;
+    outline: none;
+    font-weight: 900;
+
+    margin-right: 10px;
+}
+
+.followed{
+    background: var(--hightlight-color);
+    color:white;
+}
+.show-more{
+    display: block;
+    text-decoration: none;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    padding:15px 25px 25px 15px;
+    
+}
+.show-more-two{
+    display: block;
+    text-decoration: none;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    padding:15px 25px 25px 15px;
+    margin: 30px;;
+}
+
+
+.material-icons2{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    size: 30px;
+    color: white;
+}
+/* who to follow ends*/
+
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+   
+    .layout_right-sidebar-container {
+      width: 70%;
+      color: transparent;
+    }
+  
+  }
+  @media only screen and (max-width: 1000px){
+  }
+  
+
+/* End of right nav bar styles */
