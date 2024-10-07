@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    background-color: black;
+    color: white;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+body{
+    margin-top: 0;
+    font-family: inherit;
+}
+
+
+.search-box {
+    display: flex;
+    margin-bottom: 10px;
+    position: relative; 
+    width: 380px;
+    height: 45px;
+    margin: 0 880px;
+    left: 27px;
+    top: 5px;
+    bottom: unset;
+    position: fixed;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+.search-box.active {
+    box-shadow: 0 0 10px #000;
+}
+.search-box.active input {
+    background-color: #000;
+    border-color: rgb(29, 155, 240);
+}
+.search-box.active input::placeholder {
+    color: #888;
+}
+.search-box.active img {
+    background-color: #000;
+}
+.search-box input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+    padding-left: 60px;
+    background-color: #222;
+    
+}
+.search-box input[type="text"]:focus{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);   
+
+}
+
+.search-box input[type="text"]:focus::-webkit-input-placeholder {
+    color: #444;
+    margin: 23px;
+
+    
+}
+.search-box input[type="text"]::-webkit-input-placeholder {
+    color: #ccc;
+    font-size: 16px; 
+}
+
+.search-box img {
+    position: absolute;
+    top: 14px; 
+    left: 20px; 
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    
+}
+.stage1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0;
+}
+.recipeee{
+    display: grid;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.text-title img{
+    width: 50px;
+    border-radius: 5px;
+}
+.text-title{
+    margin-left: 2px;
+    display: flex;
+
+}
+.img-el{
+    width: 4px;
+    height: 4px;
+    margin-top: 10px;
+
+}
+.titles{
+    display: grid;
+    margin-left: 60px;
+    line-height: 0;
+    padding-bottom: 10px;
+}
+.text-title h3{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.text-title p{
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+   
+}
+
+.title img{
+    height: 20px;
+    width: 20px;
+    margin-top: 18px;
+    margin-left: 5px;
+    
+} 
+.title{
+    display: flex;
+    
+}
+.container{
+    display: grid;
+    padding: 12px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 340 px;
+    width: 350px;
+    gap: 2px;
+    margin: 5px 900px;
+    border: 1px solid #777;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    left: auto; 
+}
+.container a, .container2 a{
+    text-decoration: none;
+    color: rgb(29, 155, 240)
+
+}
+
+.btnrecipe{
+    width: 70px;
+    height: 35px;
+    margin: 10px 2px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    margin-left: 50px;
+    float: right;
+    clear: both;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+    right: 15px;   
+    margin: 0;
+    width: auto;
+    margin-top: 16px;
+    padding-right: 24px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.nav{
+    position: absolute;
+}
+.stage2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0;
+}
+.recipeee2{
+    display: grid;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.text-title2 img{
+    width: 50px;
+    border-radius: 5px;
+}
+.text-title2{
+    display: flex;
+    margin-left: 1px;
+
+}
+.img-el2{
+    width: 4px;
+    height: 4px;
+    margin-top: 10px;
+
+}
+.titles2{
+    display: grid;
+    margin-left: 15px;
+    line-height: 0;
+    padding-bottom: 10px;
+}
+.text-title2 h3{
+    font-size: 12px;
+    color: #666;
+    
+
+    
+}
+
+.text-title2 p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+ 
+}
+.text-title2 h4{
+    font-size: 13px;
+    color: #666;
+    margin-top: 6px;
+}
+.container2{
+    display: grid;
+    padding: 12px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 340 px;
+    width: 350px;
+    gap: 2px;
+    margin: 380px 900px;
+    border: 1px solid #777;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+    left: auto;
+       
+}
+.btnrecipe2{
+    width: 50px;
+    height: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+    margin-left: 150px;
+    margin-top: 20px;
+    align-items: end;
+    float: right;
+    clear: both;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+    right: -12px;  
+    margin: 0;
+    width: auto;
+    padding-right: 24px;
+}
+
+.btnrecipe2   :active{
+    background-color: transparent;
+    
+}
+.btnrecipe2 img{
+    height: 20px;
+    width: 18px;
+    padding: 0;
+}
+
+footer{
+    margin-top: 1045px;
+    margin-left: 910px;
+    color: #666; 
+    padding: 10px; 
+    margin-bottom: 100px;
+}
+.foot p{
+    font-size: 14px;
+    color: #666;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .search-box {
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 90%;
+        max-width: 380px;
+    }
+
+    .container, .container2 {
+        margin: 5px auto;
+        left: 0;
+        right: 0;
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .container2 {
+        top: 420px; 
+    }
+
+    footer {
+        margin-top: 800px;
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .search-box {
+        top: 10px;
+    }
+
+    .container, .container2 {
+        padding: 8px;
+    }
+
+    .text-title h3, .text-title2 p {
+        font-size: 16px;
+    }
+
+    .text-title p, .text-title2 h3, .text-title2 h4 {
+        font-size: 12px;
+    }
+
+    .btnrecipe, .btnrecipe2 {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
