@@ -185,6 +185,13 @@ body{
 
 .nav{
     position: absolute;
+    
+}
+
+.left-bar{
+    width: 100%;
+    max-width: 600px;
+
 }
 .stage2{
     display: flex;

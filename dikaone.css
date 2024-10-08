@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@100;300&display=swap');
+
+
+*{
+    /* font-family: Arial, sans-serif; */
+    color: white;
+    
+}
+body {
+    background-color: black;
+
+}
+
+
+    
+.middle {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', Arial, sans-serif;
+    
+    
+}
+
+
+
+ .parta{
+    height: 200px;
+    background-color: #333;
+    position: relative;
+
+}
+
+.profileinfo {
+    padding: 20px;
+    position: relative;
+    left: 350px;
+}
+
+.profile img {
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    border: 4px solid #000;
+    position: absolute;
+    top: -67px;
+    left: 20px;
+}
+
+.profile img {
+    
+        height:100px;
+        width:100px;
+        border-radius: 50px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:48px;
+       
+       bottom: 40px;
+       position: relative;
+       left: 10px;
+
+    
+}
+
+.head {
+    margin-top: 0;
+}
+
+.bighead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.bighead h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.getv {
+    background-color: #000;
+    color: #1DA1F2;
+    border: 1px solid #1DA1F2;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 700px;
+}
+
+.name p {
+    color: #6e767d;
+    margin: 0 0 10px 0;
+}
+
+.bio h5 {
+    margin: 0 0 10px 0;
+    font-weight: normal;
+}
+
+.Joined h4 {
+    color: #6e767d;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+}
+
+.head span {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.head span strong {
+    font-weight: bold;
+}
+
+.edit-profile{
+    position:absolute;
+    top: 35%;
+    right: 28%;
+    background:black;
+    color:#fff;
+    border-radius: 2em;
+    border: 1px solid #555;
+    padding:0.8em;
+    cursor: pointer;
+}
+
+.profile-tabs {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    left: 330px;
+    width: 50%;
+}
+
+.profile-tabs button:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+    border-bottom: 1px solid #1DA1F2;
+}
+.profile-tabs button {
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;    
+}
+
+.post_avatar img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 5px;
+    size: 100px;
+}
+
+.post {
+  display: flex;
+  border-bottom: 1px solid #555;
+  padding-bottom: 10px;
+  border-top: 3px solid;
+  top: 40px;
+  position: relative;
+  left: 350px;
+  width: 50%;
+}
+
+.post_headertext {
+    display: flex;
+    gap: 1rem;
+}
+.fix {
+    position: relative;
+    top: 18px;
+}
+.post_footer{
+    justify-content: space-around;
+    position: relative;
+    display: flex;
+}
+.pic img {
+    size: 100px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.post_body img{
+    width: 450px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+ 
+
+
+    
