@@ -1,12 +1,13 @@
 /*Right nav bar styles */
 body{
     background: black;
+    border-top: 1px solid rgb(72, 70, 70);
 }
 
 .layout{
-    margin: 0 60%;
+    margin: 0 70%;
     max-width: 360px;
-
+   
    
     
 }
@@ -28,7 +29,7 @@ body{
     --dark-secondary:#2f3336;
     --dark-divider:#2f3336;
 
-    --hightlight-color:blue;
+    --hightlight-color:#50b7f5;
 
 }
 .light-theme {
@@ -47,10 +48,11 @@ body{
 }
 .trends-for-you{
     border-radius: 29px;
-    background: #121415;
+    background:black;
     color: white;
     color-scheme: black;
-    box-shadow:1px 1px black ;
+    border:1px solid rgb(88, 87, 87);
+    margin-top: 20px;
    
     
 }
@@ -103,29 +105,28 @@ body{
     padding-top:9px;
     margin-bottom: 1%;
     color: white;
-    background-color: steelblue;
+    background-color:#50b7f5;
     box-shadow: none;
     cursor: pointer;
 }
 .subscribe_premium_block{
-    background: #121415;
-    border: rgb(79, 78, 78);
+    background: black;
     border-radius: 24px;
-    margin-bottom:1px;
+    border:1px solid rgb(88, 87, 87);
+    margin-top: 10px;
+    margin-bottom:9px;
     padding-left: 18px;
     font-weight: 3rem;
     color: white;
-    box-shadow:1px 1px black ;
+    
 }
 
-/*hr*/
-hr{
-    color: aqua;
-}
-/* end hr*/
+
+
+
 
 .search-bar{
-    position: fixed;
+    position: sticky;
     display: flex;
     align-items: center;
     padding: 0.5rem 1rem;
@@ -162,7 +163,7 @@ hr{
     position: fixed;
     bottom: 0%;
     width:21rem ;
-    background: #121415;
+    background: black;
     box-shadow:1px 1px rgb(43, 42, 42) ;
     border-radius: 15px;
     border-bottom: 0;
@@ -217,9 +218,9 @@ hr{
     height: auto;
     margin: 0 auto;
     border-radius: 24px;
-    background: #121415;
-    box-shadow:1px 1px black ;
-
+    background: black;
+    margin-top: 15px;
+    border:1px solid rgb(88, 87, 87);
 }
 
 .profile-information{
@@ -351,89 +352,3 @@ hr{
   
 
 /* End of right nav bar styles */
-
-
-
-
-
-/*Feed starts */
-
-body{
-    --twitter-color:#50b7f5;
-    --twitter-background:#121415;
-}
-
-.feed{
-    flex: 0.5;
-    border-right: 1px solid var(--twitter-background);
-    min-width: fit-content;
-    overflow-y: scroll;
-   
-}
-
-.feed_header{
-    position: sticky;
-    top: 0;
-    background-color: rgb(15, 15, 15);
-    z-index:100;
-    border: 1px solid var(--twitter-background);
-    padding: 15px 20px;
-}
-
-.feed_header h2{
-    font-size: 20px;
-    font-weight: 800;
-
-}
-
-.feed::-webkit-scrollbar{
-    display: none;
-}
-
-.feed{
-    -ms-overflow-style:none;
-    scrollbar-width: none;
-}
-
-
-/*tweet box*/
-.postbox_input img{
-    border-radius: 50%;
-    height: 40px;
-
-}
-.postbox{
-    padding-bottom: 10px;
-    border-bottom: 8px solid var(--twitter-background);
-    padding-right: 10px;
-}
-
-.postbox form{
-    display: flex;
-    flex-direction: column;
-}
-
-.postbox_input {
-    display: flex;
-    padding: 20px;
-}
-
-.postbox_input input{
-    flex: 1;
-    margin-left: 20px;
-    font-size: 20px;
-    border: none;
-    outline: none;
-}
-
-.postBox_postButton{
-    background-color: var(--twitter-color);
-    border: none;
-    color: white;
-    font-weight: 900;
-    border-radius: 30px;
-    width: 80px;
-    height: 40px;
-    margin-top: 40px;
-}
-/*Feed end */

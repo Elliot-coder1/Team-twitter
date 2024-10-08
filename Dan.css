@@ -65,7 +65,9 @@ body{
     margin-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    background: #121415;
+    background: black;
+    position: fixed;
+    border-right: 1px solid rgb(72, 70, 70);
     
     
 }
