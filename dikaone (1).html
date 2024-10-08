@@ -18,13 +18,14 @@
 <link rel="stylesheet" href="home page.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><link rel="stylesheet"  href="https://fonts.googleapis.com/titter.css?family=Material+Symbols+Outlined" rel="stylesheet"/>
 <link rel="stylesheet" href="Dan.css">
+<link rel="stylesheet" href="feed.css">
    
 </head>
 
 
 <body> 
-    
-     <!--left nav bar -->
+    <div class="leftbar">
+ <!--left nav bar -->
     <!-- sidebar starts -->
     <div class="sidebar">
         <img src="twitter (3).png" alt="twitter" class="twitter">
@@ -78,6 +79,9 @@
       <!-- sidebar ends -->
       <!--End of Left nav bar -->
 
+
+    </div>
+    
     
      <section class="parta">
 
@@ -119,140 +123,51 @@
      
 
 <!-- posts start -->
- <div class="post">
-    <div class="post_avatar">
-        <img src="images.jpg" alt="">
+<div class="container">
+    <header class="header">
+        <h1>Twitter Feed</h1>
+    </header>
+    
+    <div class="tweet-input">
+        <textarea placeholder="What's happening?" rows="3"></textarea>
+        <button>Tweet</button>
     </div>
-    <div class="post_body">
-        <div class="post_header">
-            <div class="post_headertext">
-                <h3>
-                    Group x project</h3><div class="fix">@groupXproject .5d</div> 
-                
+    
+    <div class="feed">
+        <div class="tweet">
+            <div class="tweet-header">
+                <img src="https://via.placeholder.com/40" alt="User Avatar" class="avatar">
+                <div class="user-info">
+                    <span class="username">@username</span>
+                    <span class="timestamp">2m ago</span>
+                </div>
             </div>
-            <div class="post_headerdescription">
-                <h2>Why are you so quiet? &#128589</h2></p>
-            </div>
+            <p class="tweet-content">This is an example tweet. Just sharing my thoughts!</p>
         </div>
-        <img src="photo_2024-09-30_12-27-59.jpg" alt="">
 
-        <div class="post_footer">
-            <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M320-60v-221q-101-8-170.5-82T80-540q0-109 75.5-184.5T340-800h27l-63-64 56-56 160 160-160 160-56-56 63-64h-27q-75 0-127.5 52.5T160-540q0 75 52.5 127.5T340-360h60v107l107-107h113q75 0 127.5-52.5T800-540q0-75-52.5-127.5T620-720h-20v-80h20q109 0 184.5 75.5T880-540q0 109-75.5 184.5T620-280h-80L320-60Z" ></svg></i>
-      
-                <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M204-318q-22-38-33-78t-11-82q0-134 93-228t227-94h7l-64-64 56-56 160 160-160 160-56-56 64-64h-7q-100 0-170 70.5T240-478q0 26 6 51t18 49l-60 60ZM481-40 321-200l160-160 56 56-64 64h7q100 0 170-70.5T720-482q0-26-6-51t-18-49l60-60q22 38 33 78t11 82q0 134-93 228t-227 94h-7l64 64-56 56Z"/></svg></i>
-                
-                
-                   <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></i>
-                
-                    <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M640-160v-280h160v280H640Zm-240 0v-640h160v640H400Zm-240 0v-440h160v440H160Z"/></svg></i>
-                
-                   <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M440-320v-326L336-542l-56-58 200-200 200 200-56 58-104-104v326h-80ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg></i>
-        </div>
-    </div>
- </div>
-
-
-
-
- <div class="post">
-    <div class="post_avatar">
-        <img src="images.jpg" alt="">
-    </div>
-    <div class="post_body">
-        <div class="post_header">
-            <div class="post_headertext">
-                <h3>
-                    Group x project</h3><div class="fix">@groupXproject .19d</div> 
-                
+        <div class="tweet">
+            <div class="tweet-header">
+                <img src="https://via.placeholder.com/40" alt="User Avatar" class="avatar">
+                <div class="user-info">
+                    <span class="username">@anotherUser</span>
+                    <span class="timestamp">5m ago</span>
+                </div>
             </div>
-            <div class="post_headerdescription">
-                <h2>CHRISTIANO RONALDO ultimate fragrance discovery</h2></p>
-            </div>
+            <p class="tweet-content">Another example tweet to illustrate the feed design.</p>
         </div>
-        <div class="pic"></div>
-        <img src="ronaldo.jpeg" alt="">
 
-        <div class="post_footer">
-            <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M320-60v-221q-101-8-170.5-82T80-540q0-109 75.5-184.5T340-800h27l-63-64 56-56 160 160-160 160-56-56 63-64h-27q-75 0-127.5 52.5T160-540q0 75 52.5 127.5T340-360h60v107l107-107h113q75 0 127.5-52.5T800-540q0-75-52.5-127.5T620-720h-20v-80h20q109 0 184.5 75.5T880-540q0 109-75.5 184.5T620-280h-80L320-60Z" ></svg></i>
-      
-                <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M204-318q-22-38-33-78t-11-82q0-134 93-228t227-94h7l-64-64 56-56 160 160-160 160-56-56 64-64h-7q-100 0-170 70.5T240-478q0 26 6 51t18 49l-60 60ZM481-40 321-200l160-160 56 56-64 64h7q100 0 170-70.5T720-482q0-26-6-51t-18-49l60-60q22 38 33 78t11 82q0 134-93 228t-227 94h-7l64 64-56 56Z"/></svg></i>
-                
-                
-                   <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></i>
-                
-                    <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M640-160v-280h160v280H640Zm-240 0v-640h160v640H400Zm-240 0v-440h160v440H160Z"/></svg></i>
-                
-                   <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M440-320v-326L336-542l-56-58 200-200 200 200-56 58-104-104v326h-80ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg></i>
+        <div class="tweet">
+            <div class="tweet-header">
+                <img src="https://via.placeholder.com/40" alt="User Avatar" class="avatar">
+                <div class="user-info">
+                    <span class="username">@coolUser</span>
+                    <span class="timestamp">10m ago</span>
+                </div>
+            </div>
+            <p class="tweet-content">Exploring new things today. #MondayMotivation</p>
         </div>
     </div>
- </div>
-
- <div class="post">
-    <div class="post_avatar">
-        <img src="images.jpg" alt="">
-    </div>
-    <div class="post_body">
-        <div class="post_header">
-            <div class="post_headertext">
-                <h3>
-                    Group x project</h3><div class="fix">@groupXproject .5d</div> 
-                
-            </div>
-            <div class="post_headerdescription">
-                <h2>it does bite lol &#128514;
-                </h2></p>
-            </div>
-        </div>
-        <img src="Funny_Dog_S.webp" alt="">
-
-        <div class="post_footer">
-            <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M320-60v-221q-101-8-170.5-82T80-540q0-109 75.5-184.5T340-800h27l-63-64 56-56 160 160-160 160-56-56 63-64h-27q-75 0-127.5 52.5T160-540q0 75 52.5 127.5T340-360h60v107l107-107h113q75 0 127.5-52.5T800-540q0-75-52.5-127.5T620-720h-20v-80h20q109 0 184.5 75.5T880-540q0 109-75.5 184.5T620-280h-80L320-60Z" ></svg></i>
-      
-                <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M204-318q-22-38-33-78t-11-82q0-134 93-228t227-94h7l-64-64 56-56 160 160-160 160-56-56 64-64h-7q-100 0-170 70.5T240-478q0 26 6 51t18 49l-60 60ZM481-40 321-200l160-160 56 56-64 64h7q100 0 170-70.5T720-482q0-26-6-51t-18-49l60-60q22 38 33 78t11 82q0 134-93 228t-227 94h-7l64 64-56 56Z"/></svg></i>
-                
-                
-                   <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></i>
-                
-                    <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M640-160v-280h160v280H640Zm-240 0v-640h160v640H400Zm-240 0v-440h160v440H160Z"/></svg></i>
-                
-                   <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M440-320v-326L336-542l-56-58 200-200 200 200-56 58-104-104v326h-80ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg></i>
-        </div>
-    </div>
- </div>
-
-
- <div class="post">
-    <div class="post_avatar">
-        <img src="images.jpg" alt="">
-    </div>
-    <div class="post_body">
-        <div class="post_header">
-            <div class="post_headertext">
-                <h3>
-                    Group x project</h3><div class="fix">@groupXproject .5d</div> 
-                
-            </div>
-            <div class="post_headerdescription">
-                <h1>40 million whats the first thing you will do &#128514;?</h1>
-            </div>
-        </div>
-        <!-- <img src="photo_2024-09-30_12-27-59.jpg" alt=""> -->
-
-        <div class="post_footer">
-            <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M320-60v-221q-101-8-170.5-82T80-540q0-109 75.5-184.5T340-800h27l-63-64 56-56 160 160-160 160-56-56 63-64h-27q-75 0-127.5 52.5T160-540q0 75 52.5 127.5T340-360h60v107l107-107h113q75 0 127.5-52.5T800-540q0-75-52.5-127.5T620-720h-20v-80h20q109 0 184.5 75.5T880-540q0 109-75.5 184.5T620-280h-80L320-60Z" ></svg></i>
-      
-                <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M204-318q-22-38-33-78t-11-82q0-134 93-228t227-94h7l-64-64 56-56 160 160-160 160-56-56 64-64h-7q-100 0-170 70.5T240-478q0 26 6 51t18 49l-60 60ZM481-40 321-200l160-160 56 56-64 64h7q100 0 170-70.5T720-482q0-26-6-51t-18-49l60-60q22 38 33 78t11 82q0 134-93 228t-227 94h-7l64 64-56 56Z"/></svg></i>
-                
-                
-                   <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></i>
-                
-                    <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M640-160v-280h160v280H640Zm-240 0v-640h160v640H400Zm-240 0v-440h160v440H160Z"/></svg></i>
-                
-                   <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M440-320v-326L336-542l-56-58 200-200 200 200-56 58-104-104v326h-80ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg></i>
-        </div>
-    </div>
- </div>
-</section>
+</div>
 <!--Dunsimi code-->
 
 

@@ -9,6 +9,7 @@
 }
 body {
     background-color: black;
+    overflow: auto;
 
 }
 
@@ -24,6 +25,10 @@ body {
     
 }
 
+.middle1{
+    display: grid;
+    position: relative;
+}
 
 
  .parta{
@@ -169,7 +174,7 @@ body {
 }
 
 .post {
-  display: flex;
+  display: grid;
   border-bottom: 1px solid #555;
   padding-bottom: 10px;
   border-top: 3px solid;
@@ -180,7 +185,7 @@ body {
 }
 
 .post_headertext {
-    display: flex;
+    display: grid;
     gap: 1rem;
 }
 .fix {
