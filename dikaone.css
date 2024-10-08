@@ -16,9 +16,8 @@ body {
     
 .middle {
     width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #000;
+    
+    background-color: #e000;
     color: #fff;
     font-family: 'Roboto', Arial, sans-serif;
     
@@ -29,8 +28,11 @@ body {
 
  .parta{
     height: 200px;
+    width: 200%;
     background-color: #333;
-    position: relative;
+    max-width: 500px;
+    margin: 0 35%;
+    border:1px solid rgb(106, 104, 104) ;
 
 }
 

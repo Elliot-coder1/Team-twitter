@@ -19,7 +19,7 @@ body{
     position: relative; 
     width: 380px;
     height: 45px;
-    margin: 0 880px;
+    margin: 0 950px;
     left: 27px;
     top: 5px;
     bottom: unset;
@@ -81,7 +81,9 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-right: 0;
+   
+    margin: 0 5%;
+    max-width: 360px
 }
 .recipeee{
     display: grid;
@@ -188,17 +190,16 @@ body{
     
 }
 
-.left-bar{
-    width: 100%;
-    max-width: 600px;
 
-}
+
+
 .stage2{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-right: 0;
+    margin: 0 5%;
+    max-width: 360px
 }
 .recipeee2{
     display: grid;
